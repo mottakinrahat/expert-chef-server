@@ -1,0 +1,305 @@
+[ 
+    {
+      "id":1,
+      "name": "Nongkran Daks",
+      "picture": "https://i.ibb.co/fDSgwxL/thai-male-1.jpg",
+      "bio": "Owner of Thai Basil in Chantilly, Virginia. 30 years of experience in Thai cooking.",
+      "likes": 1500,
+      "recipes_count": 5,
+      "yearsExperience": 30,
+      "number_of_recipes":56,
+      "recipes": [
+        {
+          "recipe_id":1,
+          "name": "Pad Thai",
+          "ingredients": ["1.rice noodles ", "2. shrimp ", "3. tofu ", "4. bean sprouts ", "5. scallions"],
+          "cookingMethod": "Soak noodles, fry shrimp and tofu, add the other ingredients and toss. Serve hot.",
+          "rating": 4.8,
+          "picture": "pad-thai.jpg"
+        },
+        {
+          "recipe_id":2,
+          "name": "Tom Yum Soup",
+          "ingredients": ["1. lemongrass ", "2. galangal ", "3. kaffir lime leaves ", "4. chicken ", "5. mushrooms"],
+          "cookingMethod": "Boil the herbs, add the chicken and simmer for 10 minutes. Add the coconut milk and simmer for another 5 minutes. Serve hot.",
+          "rating": 4.9,
+          "picture": "tom-yum.jpg"
+        },
+        {
+          "recipe_id":3,
+          "name": "Green Curry Chicken",
+          "ingredients": ["1. chicken ", "2. green curry paste ", "3. coconut milk ", "4. bamboo shoots ", "5. basil leaves"],
+          "cookingMethod": "Cook the chicken in the curry paste, add the other ingredients and simmer for 10 minutes. Serve hot.",
+          "rating": 4.6,
+          "picture": "green-curry.jpg"
+        }
+      ]
+    },
+    {
+        "id":2,
+        "name": "Samantha Kwan",
+        "picture": "https://i.ibb.co/z60JsxJ/thai-female-1.jpg",
+        "bio": "Samantha is a third-generation Thai chef who grew up in Bangkok. She has over 20 years of experience and loves to experiment with new ingredients and flavors.",
+        "likes": 1000,
+        "numRecipes": 15,
+        "yearsExperience": 20,  
+        "number_of_recipes":25,
+      "recipes" : [
+        {
+          "recipe_id":4,
+          "name": "Tom Yum Goong",
+          "picture": "https://example.com/tom-yum-goong.jpg",
+          "ingredients": ["1. lemon-grass ",  "2.galangal ", "3. kaffir lime leaves ", "4. chili peppers ", "5. fish sauce ", "6. lime juice", "7. shrimp"],
+          "cookingMethod": "1. Boil water with lemongrass, galangal, and kaffir lime leaves. 2. Add chili peppers and fish sauce. 3. Add shrimp and cook until pink. 4. Finish with lime juice.",
+          "rating": 4.8,
+          "favorite": false
+        },
+        {
+          "recipe_id":5,
+          "name": "Pad Thai",
+          "picture": "https://example.com/pad-thai.jpg",
+          "ingredients": ["1.rice noodles  ", "2.bean sprouts  ", "3.garlic  ", "4.eggs  ", "5.tamarind paste  ", "6.peanuts  ", "6.chicken"],
+          "cookingMethod": "1. Soak rice noodles. 2. Fry garlic and eggs. 3. Add noodles and chicken. 4. Mix in tamarind paste and bean sprouts. 5. Garnish with peanuts.",
+          "rating": 4.5,
+          "favorite": true
+        },
+        {
+          "recipe_id":6,
+          "name": "Green Curry",
+          "picture": "https://example.com/green-curry.jpg",
+          "ingredients": ["1.green curry paste ", "2.coconut milk ", "3.lemongrass ", "4.chicken  ", "5.bell peppers  ", "6.basil"],
+          "cookingMethod": "1. Fry green curry paste in coconut milk. 2. Add lemongrass and chicken. 3. Simmer until chicken is cooked. 4. Add bell peppers and basil. 5. Serve with rice.",
+          "rating": 4.7,
+          "favorite": false
+        }
+      ]
+    },
+   
+    {
+        "id":3,
+        "name": "Kritsada Boonchu",
+        "picture": "https://i.ibb.co/b649P2W/Thai-male-2.jpg",
+        "bio": "Kritsada is a talented chef from Chiang Mai with over 25 years of experience. He has a passion for traditional Thai cuisine and enjoys experimenting with new flavors and techniques.",
+        "likes": 1200,
+        "numRecipes": 20,
+        "yearsExperience": 25,
+        "gender": "male",
+        "number_of_recipes":15,
+      
+      "recipes": [
+        {
+          "recipe_id":7,
+          "name": "Khao Soi",
+          "picture": "https://example.com/khao-soi.jpg",
+          "ingredients": ["1.chicken  ", "2.coconut milk  ", "3.red curry paste  ", "4.turmeric  ", "5.noodles  ", "6.crispy noodles  ", "7.lime  ", "8.shallots"],
+          "cookingMethod": "1. Fry red curry paste and turmeric in coconut milk. 2. Add chicken and cook until browned. 3. Add water and simmer. 4. Cook noodles separately. 5. Serve with crispy noodles, lime, and shallots.",
+          "rating": 4.9,
+          "favorite": false
+        },
+        {
+          "recipe_id":8,
+          "name": "Pla Rad Prik",
+          "picture": "https://example.com/pla-rad-prik.jpg",
+          "ingredients": ["1.fish  ", "2.garlic  ", "3.shallots  ", "4.chili peppers  ", "5.fish sauce  ", "6.palm sugar  ", "7.lime  "],
+          "cookingMethod": "1. Fry garlic, shallots, and chili peppers. 2. Add fish and cook until browned. 3. Add fish sauce and palm sugar. 4. Serve with lime.",
+          "rating": 4.6,
+          "favorite": true
+        },
+        {
+          "recipe_id":9,
+          "name": "Miang Kham",
+          "picture": "https://example.com/miang-kham.jpg",
+          "ingredients": ["1.betel leaves  ", "2.shallots  ", "3.ginger  ", "4.peanuts  ", "5.shrimp  ", "6.coconut  ", "7.lime  ", "8.palm sugar"],
+          "cookingMethod": "1. Roast peanuts and coconut. 2. Mix shallots, ginger, shrimp, and palm sugar. 3. Wrap in betel leaves. 4. Serve with roasted peanuts, coconut, and lime.",
+          "rating": 4.8,
+          "favorite": false
+        }
+      ]
+    },
+
+    {
+        "id":4,
+        "name": "Saranya Khun",
+        "picture": "https://i.ibb.co/4dYttkd/Thai-female-2.jpg",
+        "bio": "Chef Saranya grew up in a small village in Thailand and learned how to cook from her mother. She later trained at a culinary school in Bangkok and now runs her own restaurant in Phuket.",
+        "likes": 1500,
+        "numRecipes": 30,
+        "yearsExperience": 15,
+        "number_of_recipes":46,
+        "recipes": [
+          {
+            "recipe_id":10,
+            "name": "Tom Kha Gai",
+            "ingredients": [
+              "1. 1 can of coconut milk   ",
+              "2. 1 cup of chicken broth  ",
+              "3. 1 stalk of lemongrass  ",
+              "4. 3 kaffir lime leaves  ",
+              "5. 1 tablespoon of fish sauce  ",
+              "6. 1 tablespoon of lime juice  ",
+              "7. 1/2 cup of sliced mushrooms  ",
+              "8. 1/2 cup of sliced chicken breast "
+            ],
+            "cookingMethod": "1. In a pot, bring coconut milk and chicken broth to a boil. 2. Add lemongrass, kaffir lime leaves, and fish sauce. 3. Add chicken and mushrooms and simmer for 10 minutes. 4. Stir in lime juice and serve hot.",
+            "rating": 4.8,
+            "recipeImage": "https://example.com/tom-kha-gai.jpg"
+          },
+          {
+            "recipe_id":11,
+            "name": "Pad See Ew",
+            "ingredients": [
+              "1. 1/2 pound of wide rice noodles  ",
+              "2. 1/2 cup of sliced beef  ",
+              "3. 1/2 cup of sliced chicken  ",
+              "4. 1 cup of sliced Chinese broccoli  ",
+              "5. 2 cloves of minced garlic  ",
+              "6. 2 tablespoons of soy sauce  ",
+              "7. 2 tablespoons of oyster sauce  ",
+              "8. 1 teaspoon of sugar"
+            ],
+            "cookingMethod": "1. Soak rice noodles in hot water for 5 minutes. 2. In a wok, stir-fry garlic and meat until cooked. 3. Add Chinese broccoli and stir-fry until tender. 4. Add noodles and sauces, and stir-fry for 2 minutes. 5. Serve hot.",
+            "rating": 4.6,
+            "recipeImage": "https://example.com/pad-see-ew.jpg"
+          },
+          {
+            "recipe_id":12,
+            "name": "Som Tum",
+            "ingredients": [
+              "1. 1 green papaya  ",
+              "2. 1/2 cup of cherry tomatoes  ",
+              "3.  1/4 cup of sliced green beans  ",
+              "4.  1/4 cup of roasted peanuts  ",
+              "5.  2 tablespoons of fish sauce  ",
+              "6.  2 tablespoons of lime juice  ",
+              "7.  2 tablespoons of palm sugar  ",
+              "8.  1-2 bird's eye chili peppers"
+            ],
+            "cookingMethod": "1. Peel and shred papaya into thin strips. 2. In a mortar and pestle, pound chili peppers and garlic until fine. 3. Add green beans and pound lightly. 4. Add papaya, cherry tomatoes, and peanuts, and pound lightly. 5. Add fish sauce, lime juice, and palm sugar, and mix well. 6. Serve cold.",
+            "rating": 4.9,
+            "recipeImage": "https://example.com/som-tum.jpg"
+          }
+        ]
+      },
+
+      {
+        "id":5,
+        "name": "Thanaphaat",
+        "gender": "Male",
+        "picture": "https://i.ibb.co/q5T4XKL/final-Male3.png",
+        "bio": "Chef Thanaphaat is a renowned Thai chef known for his unique fusion dishes. He has been cooking for over 20 years and has worked in various famous restaurants around Thailand.",
+        "likes": 1500,
+        "recipesCount": 12,
+        "yearsExperience": 20,
+        "number_of_recipes":22,
+     
+      "recipes": [
+        {
+          "recipe_id":13,
+          "name": "Crispy Thai Basil Pork",
+          "picture": "crispy-basil-pork.jpg",
+          "ingredients": [
+            "1. 1 lb pork loin, thinly sliced  ",
+            "2. 1/4 cup cornstarch  ",
+            "3. 1/4 cup soy sauce  ",
+            "4.  1/4 cup fish sauce ",
+            "5. 2 tbsp brown sugar ",
+            "6. 1/2 cup Thai basil leaves "
+          ],
+          "cookingMethod": "1. In a bowl, mix cornstarch and pork until coated. \n 2. In a pan, heat oil and fry pork until crispy. \n 3. In another pan, mix soy sauce, fish sauce, and brown sugar. Cook until sugar dissolves. \n 4. Add basil leaves and cook until wilted. \n5. Add crispy pork and toss until coated with sauce. Serve over rice.",
+          "rating": 4.8
+        },
+        {
+          "recipe_id":14,
+          "name": "Green Curry Chicken",
+          "picture": "green-curry-chicken.jpg",
+          "ingredients": [
+            "1. 1 lb chicken breast, sliced ",
+            "2. 1 can coconut milk  ",
+            "3. 3 tbsp green curry paste  ",
+            "4. 1 tbsp fish sauce  ",
+            "5. 1 tbsp palm sugar  ",
+            "6. 1 cup bamboo shoots "
+          ],
+          "cookingMethod": "1. In a pot, heat curry paste and coconut milk until fragrant. \n2. Add chicken and cook until no longer pink. \n3. Add fish sauce, palm sugar, and bamboo shoots. \n4. Cook until chicken is tender and sauce is thickened. Serve over rice.",
+          "rating": 4.5
+        },
+        {
+          "recipe_id":15,
+          "name": "Mango Sticky Rice",
+          "picture": "mango-sticky-rice.jpg",
+          "ingredients": [
+            "1. 1 cup glutinous rice ",
+            "2. 1 can coconut milk  ",
+            "3. 1/2 cup sugar  ",
+            "4. 1/4 tsp salt  ",
+            "5. 1 ripe mango "
+          ],
+          "cookingMethod": "1. Rinse rice and soak in water for 30 minutes. \n2. Drain rice and cook with coconut milk, sugar, and salt. \n3. Stir occasionally until rice is cooked and liquid is absorbed. \n4. Peel and slice mango. \n5. Serve rice with mango slices on top.",
+          "rating": 4.7
+        }
+      ]
+    },
+
+    {
+        "id":6,
+        
+        "name": "Sasiwimol Piyapramote",
+        "picture": "https://i.ibb.co/XCRymrf/Thai-female-3.jpg",
+        "bio": "Chef Sasiwimol Piyapramote is a young and talented Thai chef who has a passion for creating dishes that combine traditional Thai flavors with modern cooking techniques.",
+        "likes": 1364,
+        "recipesCount": 9,
+
+        "yearsExperience": 5,
+        "number_of_recipes":34,
+      "recipes": [
+
+        {
+          "recipe_id":16,
+          "name": "Pad Krapow Gai (Basil Chicken Stir-Fry)",
+          "image": "https://example.com/images/recipe-pad-krapow-gai.jpg",
+          "ingredients": [
+            "1. 1 lb boneless, skinless chicken thighs, cut into bite-sized pieces",
+            "2. 3 tbsp vegetable oil",
+            "3. 6 cloves garlic, minced",
+            "4. 2-3 Thai bird's eye chilies, chopped",
+            "5. 1 red bell pepper, sliced"
+          ],
+          "cookingMethod": "1. Heat a large wok or skillet over high heat. Add the vegetable oil and swirl to coat the bottom of the pan.\n2. Add the garlic and chilies and stir-fry for about 30 seconds, until fragrant.\n3. Add the chicken and stir-fry for about 5-7 minutes, until cooked through.\n4. Add the bell pepper and stir-fry for another minute or two, until the bell pepper is just starting to soften.\n5. Add the basil leaves and stir-fry for another 30 seconds, until wilted. Serve hot over rice.",
+          "rating": 4.8,
+          "favorite": false
+        },
+        {
+          "recipe_id":17,
+          "name": "Tom Yum Goong (Spicy and Sour Shrimp Soup)",
+          "image": "https://example.com/images/recipe-tom-yum-goong.jpg",
+          "ingredients": [
+            "1. 1 lb large shrimp, peeled and deveined ",
+            "2. 4 cups chicken or seafood broth  ",
+            "3. 2 stalks lemongrass, sliced into 2-inch pieces  ",
+            "4. 4 kaffir lime leaves  ",
+            "5. 3-4 Thai bird's eye chilies, chopped"
+          ],
+          "cookingMethod": "1. In a large pot, bring the broth, lemongrass, and kaffir lime leaves to a boil.\n2. Add the shrimp and chilies, and simmer for 2-3 minutes, until the shrimp is pink and cooked through.\n3. Season with fish sauce and lime juice, to taste. Serve hot.",
+          "rating": 4.5,
+          "favorite": false
+        },
+        {
+          "recipe_id":18,
+          "name": "Som Tum (Green Papaya Salad)",
+          "image": "https://example.com/images/recipe-som-tum.jpg",
+          "ingredients": [
+            "1. 2 cups shredded green papaya ",
+            "2. 2-3 Thai bird's eye chilies, chopped ",
+            "3. 2 cloves garlic, chopped ",
+            "4. 2 tbsp fish sauce ",
+            "5. 2 tbsp lime juice"
+          ],
+          "cookingMethod": "1. In a large mortar and pestle, pound the chilies and garlic together until fragrant.\n2. Add the shredded papaya, fish sauce, and lime juice, and pound until well combined.\n3. Serve as a side dish with grilled meats or seafood.",
+          "rating": 4.3,
+          "favorite": false
+        }
+      ]
+    }
+   
+
+ ]
